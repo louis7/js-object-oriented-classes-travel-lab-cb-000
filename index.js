@@ -9,12 +9,12 @@ let eastWest = [
   '5th Avenue'
 ];
 
-class driver {
+class Driver {
   constructor(name, startDate, yearsExperienceFromBeginningOf ) {
     this.name = name;
     this.email = startDate;
     this.yearsExperienceFromBeginningOf = yearsExperienceFromBeginningOf;
 
   }
- 
+
 }
