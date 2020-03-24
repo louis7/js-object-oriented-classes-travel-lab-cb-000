@@ -10,10 +10,11 @@ let eastWest = [
 ];
 
 class Driver {
-  constructor(name, startDate, yearsExperienceFromBeginningOf ) {
+  constructor(name, startDate, endyear ) {
+    const Endyear = new date(endyear)
     this.name = name;
     this.startDate = new Date(startDate) ;
-    this.yearsExperienceFromBeginningOf = yearsExperienceFromBeginningOf;
+    this.yearsExperienceFromBeginningOf = ${this.startDate} - Endyear;
 
   }
 
