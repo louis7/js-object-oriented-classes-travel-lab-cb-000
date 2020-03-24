@@ -12,7 +12,7 @@ let eastWest = [
 class Driver {
   constructor(name, startDate, yearsExperienceFromBeginningOf ) {
     this.name = name;
-    this.startDate = startDate;
+    this.startDate = new Date(startDate) ;
     this.yearsExperienceFromBeginningOf = yearsExperienceFromBeginningOf;
 
   }
