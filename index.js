@@ -8,3 +8,13 @@ let eastWest = [
   'Madison Avenue',
   '5th Avenue'
 ];
+
+class driver {
+  constructor(name, startDate, yearsExperienceFromBeginningOf ) {
+    this.name = name;
+    this.email = startDate;
+    this.yearsExperienceFromBeginningOf = yearsExperienceFromBeginningOf;
+
+  }
+ 
+}
